@@ -178,4 +178,5 @@ export const baseOptions: BaseLayoutProps = {
     }
   ],
   disableThemeSwitch: true,
+  themeSwitch: { enabled: false },
 };
