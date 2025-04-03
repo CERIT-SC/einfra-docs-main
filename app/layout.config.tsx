@@ -133,7 +133,7 @@ export const baseOptions: BaseLayoutProps = {
           // eslint-disable-next-line @next/next/no-img-element
 	  icon: <img src="/img/meta/menu-logos/ondemand-logo-1.png" alt="ondemand logo" className="h-10 p-0.5"/>,
           text: 'OnDemand',
-          description: 'Web-based interface providing easy access to high-performance computing (HPC) resources without requiring command-line expertise.',
+          description: 'Web-based interface providing easy access to high-performance computing (HPC) resources.',
           url: 'https://docs.metacentrum.cz/en/docs/ondemand',
           menu: {
             className: 'lg:col-start-3 lg:row-start-2',
@@ -143,7 +143,7 @@ export const baseOptions: BaseLayoutProps = {
           // eslint-disable-next-line @next/next/no-img-element
           icon: <img src="/img/meta/menu-logos/jupyter.png" alt="jupyter logo" className="h-10 p-0.5"/>,
           text: 'Jupyter Notebooks',
-          description: 'Web-based interface enables users to write and execute code in multiple programming languages (e.g., Python, R, Julia) in a browser-based interface.',
+          description: 'Web-based interface enables users to write and execute code in multiple programming languages.',
           url: 'https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter',
           menu: {
             className: 'lg:col-start-2 lg:row-start-2',
@@ -153,7 +153,7 @@ export const baseOptions: BaseLayoutProps = {
           // eslint-disable-next-line @next/next/no-img-element
           icon: <img src="/img/meta/menu-logos/galaxy_logo_25percent_transparent.png" alt="galaxy logo" className="h-10 p-0.5"/>,
           text: 'Galaxy',
-          description: 'Web-based platform designed for running computational and statistical analyses with focus on openness and usage of FAIR data (biomedical science, ecology, natural language processing, chemistry, climate science,  social sciences, etc).',
+          description: 'Web-based platform designed for running computational and statistical analyses.',
           url: 'https://docs.metacentrum.cz/en/docs/related/galaxy',
           menu: {
             className: 'lg:col-start-3 lg:row-start-1',
@@ -163,7 +163,7 @@ export const baseOptions: BaseLayoutProps = {
           // eslint-disable-next-line @next/next/no-img-element
           icon: <img src="/img/meta/menu-logos/elixir_logo.png" alt="elixir logo" className="h-10 p-0.5"/>,
           text: 'ELIXIR-CZ',
-          description: 'Services available for ELIXIR community.',
+          description: 'Services available for ELIXIR CZ community.',
           url: 'https://docs.metacentrum.cz/en/docs/access/elixir',
           menu: {
             className: 'lg:col-start-2 lg:row-start-1',
