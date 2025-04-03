@@ -2,7 +2,7 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 import Image from 'next/image';
 import Logo from '@/public/img/e-infra/logo.svg';
 import Banner from '@/public/img/ceritsc/banner.png';
-import BannerMeta from '@/public/img/meta/meta-docs-baner2-01.svg';
+import BannerMeta from '@/public/img/meta/meta-docs-banner.jpg';
 
 /**
  * Shared layout configurations
