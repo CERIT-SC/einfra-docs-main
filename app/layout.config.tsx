@@ -12,7 +12,6 @@ import BannerMeta from '@/public/img/meta/meta-docs-banner.jpg';
  * Docs Layout: app/docs/layout.tsx
  */
 export const baseOptions: BaseLayoutProps = {
-  i18n: false,
   nav: {
     title: (
      <>
