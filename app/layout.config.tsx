@@ -131,7 +131,7 @@ export const baseOptions: BaseLayoutProps = {
         },
         {
           // eslint-disable-next-line @next/next/no-img-element
-	  icon: <img src="/img/meta/menu-logos/ondemand-logo-1.jpg" alt="ondemand logo" className="h-10 p-0.5"/>,
+	  icon: <img src="/img/meta/menu-logos/ondemand-logo-1.png" alt="ondemand logo" className="h-10 p-0.5"/>,
           text: 'OnDemand',
           description: 'Web-based interface providing easy access to high-performance computing (HPC) resources without requiring command-line expertise.',
           url: 'https://docs.metacentrum.cz/en/docs/ondemand',
