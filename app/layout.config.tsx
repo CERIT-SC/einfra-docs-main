@@ -141,7 +141,7 @@ export const baseOptions: BaseLayoutProps = {
         },
         {
           // eslint-disable-next-line @next/next/no-img-element
-          icon: <img src="/img/meta/menu-logos/jupyter.png" alt="jupyter logo" className="h-10 p-0.5"/>,
+          icon: <img src="/img/meta/menu-logos/jupyter-new.png" alt="jupyter logo" className="h-10 p-0.5"/>,
           text: 'Jupyter Notebooks',
           description: 'Web-based interface enables users to write and execute code in multiple programming languages.',
           url: 'https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter',
