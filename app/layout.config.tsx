@@ -182,7 +182,7 @@ export const baseOptions: BaseLayoutProps = {
       ], 
     },
     { 
-      text: 'MetaCentrum Cloud',
+      text: 'Compute Cloud',
       url: 'https://docs.platforms.cloud.e-infra.cz/en/docs',
       active: 'nested-url',
     },
