@@ -6,7 +6,7 @@ export default function HomePage() {
     <main className="container relative max-w-[1100px] px-2 py-4 lg:py-16">
       <h1 className="mb-4 text-2xl font-bold">Welcome to e-INFRA CZ Documentation!</h1>
       <p className="text-fd-muted-foreground">
-      The home for documentation of all e-INFRA CZ services that are provided to scientific community in the Czech Republic.
+      The home for the documentation of all e-INFRA CZ services that are provided to the scientific community in the Czech Republic.
       </p>
       <Cards3 className="pt-4">
         <Card title="e-INFRA CZ Account" icon={<Fingerprint/>}>
@@ -21,11 +21,11 @@ export default function HomePage() {
         <Card title="Data Processing" icon={<Cpu />}>
           <p>Focus on what&apos;s important, your research can be accelerated with our <b>big</b> servers.</p>
           <ul className="pt-2">
-           <li><a href="https://docs.metacentrum.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Batch computing (Metacentrum Grid)</a></li>
-           <li><a href="https://docs.e-infra.cz/compute/openstack/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Compute Cloud (Virtualization)</a></li>
-           <li><a href="https://docs.cerit.io/en/docs/platform/overview" className="text-fd-primary flex items-center gap-2"><MoveRight /> Containers Cloud</a></li>
-           <li><a href="https://docs.it4i.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Supercomputing</a></li>
-           <li><a href="https://www.cerit-sc.cz/infrastructure-services/sensitivecloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> Sensitive data processing</a></li>
+           <li><a href="https://docs.metacentrum.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Batch computing (MetaĆentrum Grid)</a></li>
+           <li><a href="https://docs.e-infra.cz/compute/openstack/" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum Compute Cloud (Virtualization)</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/platform/overview" className="text-fd-primary flex items-center gap-2"><MoveRight /> Kubernetes Container Cloud</a></li>
+           <li><a href="https://docs.it4i.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Supercomputing IT4I</a></li>
+           <li><a href="https://www.cerit-sc.cz/infrastructure-services/sensitivecloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> Sensitive Cloud</a></li>
           </ul>
         </Card>
         <Card title="Data Storage & Repositories" icon={<Database />}>
@@ -34,7 +34,7 @@ export default function HomePage() {
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Overview</a></li>
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Synchronisation&Sharing</a></li>
            <li><a href="https://docs.du.cesnet.cz/en/object-storage-s3/s3-service" className="text-fd-primary flex items-center gap-2"><MoveRight /> Object Storage</a></li>
-           <li><a href="https://docs.nrp.eosc.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Data Repositories</a></li>
+           <li><a href="https://docs.nrp.eosc.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> National Data Repositories (NRP)</a></li>
           </ul>
         </Card>
       </Cards3>
