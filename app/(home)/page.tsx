@@ -21,7 +21,7 @@ export default function HomePage() {
         <Card title="Data Processing" icon={<Cpu />}>
           <p>Focus on what&apos;s important, your research can be accelerated with our <b>big</b> servers.</p>
           <ul className="pt-2">
-           <li><a href="https://docs.metacentrum.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Batch computing (MetaĆentrum Grid)</a></li>
+           <li><a href="https://docs.metacentrum.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Batch computing (MetaCentrum Grid)</a></li>
            <li><a href="https://docs.it4i.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Supercomputing (IT4I)</a></li>
            <li><a href="https://docs.platforms.cloud.e-infra.cz/en/docs" className="text-fd-primary flex items-center gap-2"><MoveRight /> Compute Cloud (Virtualization)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/platform/overview" className="text-fd-primary flex items-center gap-2"><MoveRight /> Container Platform (Kubernetes CERIT-SC)</a></li>
@@ -29,7 +29,7 @@ export default function HomePage() {
           </ul>
         </Card>
         <Card title="Data Storage & Repositories" icon={<Database />}>
-          <p>Need to store <b>terabytes</b> of data? No problem. Read what capabilities you have.</p>
+          <p>Need to store <b>terabytes</b> or <b>long-term</b> data? Read what capabilities you have.</p>
           <ul className="pt-2">
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Overview</a></li>
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Synchronisation&Sharing</a></li>
