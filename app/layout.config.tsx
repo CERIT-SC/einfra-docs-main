@@ -21,6 +21,96 @@ export const baseOptions: BaseLayoutProps = {
     ),
   },
   links: [
+    { 
+      text: 'Account',
+      url: 'https://www.cesnet.cz/en/gdpr#personal-data-processing-in-e-infra-cz-209',
+      active: 'nested-url',
+    },
+    {
+      type: 'menu',
+      text: 'MetaCentrum Grid',
+      url: 'https://docs.metacentrum.cz',
+      items: [
+        {
+          menu: {
+            banner: (
+               <div className="-mx-3 -mt-3">
+                <Image
+                  src={BannerMeta}
+                  alt="Meta"
+                  width="1200"
+                  height="710"
+                  className="rounded-t-lg object-cover"
+                  style={{
+                    maskImage:
+                      'linear-gradient(to bottom,white 60%,transparent)',
+                  }}
+                />
+               </div>
+            ),
+            className: 'md:row-span-2',
+          },
+          text: 'Getting Started',
+          description: 'Learn how to start to use MetaCentrum Grid Computing services',
+          url: 'https://docs.metacentrum.cz/en/docs/computing/run-basic-job',
+        },
+        {
+          // eslint-disable-next-line @next/next/no-img-element
+	  icon: <img src="/img/meta/menu-logos/ondemand-logo-1.png" alt="ondemand logo" className="h-10 p-0.5"/>,
+          text: 'OnDemand',
+          description: 'Web-based interface providing easy access to high-performance computing (HPC) resources.',
+          url: 'https://docs.metacentrum.cz/en/docs/ondemand',
+          menu: {
+            className: 'lg:col-start-3 lg:row-start-2',
+          },
+        },
+        {
+          // eslint-disable-next-line @next/next/no-img-element
+          icon: <img src="/img/meta/menu-logos/jupyter-new.png" alt="jupyter logo" className="h-10 p-0.5"/>,
+          text: 'Jupyter Notebooks',
+          description: 'Web-based interface enables users to write and execute code in multiple programming languages.',
+          url: 'https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter',
+          menu: {
+            className: 'lg:col-start-2 lg:row-start-2',
+          },
+        },
+        {
+          // eslint-disable-next-line @next/next/no-img-element
+          icon: <img src="/img/meta/menu-logos/galaxy_logo_25percent_transparent.png" alt="galaxy logo" className="h-10 p-0.5"/>,
+          text: 'Galaxy',
+          description: 'Web-based platform designed for running computational and statistical analyses.',
+          url: 'https://docs.metacentrum.cz/en/docs/related/galaxy',
+          menu: {
+            className: 'lg:col-start-3 lg:row-start-1',
+          },
+        },
+        {
+          // eslint-disable-next-line @next/next/no-img-element
+          icon: <img src="/img/meta/menu-logos/elixir_logo.png" alt="elixir logo" className="h-10 p-0.5"/>,
+          text: 'ELIXIR-CZ',
+          description: 'Services available for ELIXIR CZ community.',
+          url: 'https://docs.metacentrum.cz/en/docs/access/elixir',
+          menu: {
+            className: 'lg:col-start-2 lg:row-start-1',
+          },
+        },
+      ], 
+    },
+    {
+      text: 'Supercomputing IT4I',
+      url: 'https://docs.it4i.cz',
+      active: 'nested-url',
+    },
+    {
+      text: 'Data Storages',
+      url: 'https://docs.du.cesnet.cz',
+      active: 'nested-url',
+    },
+    { 
+      text: 'NRP',
+      url: 'https://docs.nrp.eosc.cz',
+      active: 'nested-url',
+    },
     {
       type: 'menu',
       text: 'CERIT-SC Kubernetes',
@@ -91,101 +181,16 @@ export const baseOptions: BaseLayoutProps = {
         },
       ], 
     },
-    {
-      text: 'Data Storages',
-      url: 'https://docs.du.cesnet.cz',
-      active: 'nested-url',
-    },
-    {
-      text: 'IT4I',
-      url: 'https://docs.it4i.cz',
-      active: 'nested-url',
-    },
-    {
-      type: 'menu',
-      text: 'MetaCentrum',
-      url: 'https://docs.metacentrum.cz',
-      items: [
-        {
-          menu: {
-            banner: (
-               <div className="-mx-3 -mt-3">
-                <Image
-                  src={BannerMeta}
-                  alt="Meta"
-                  width="1200"
-                  height="710"
-                  className="rounded-t-lg object-cover"
-                  style={{
-                    maskImage:
-                      'linear-gradient(to bottom,white 60%,transparent)',
-                  }}
-                />
-               </div>
-            ),
-            className: 'md:row-span-2',
-          },
-          text: 'Getting Started',
-          description: 'Learn how to start to use MetaCentrum Grid Computing services',
-          url: 'https://docs.metacentrum.cz/en/docs/computing/run-basic-job',
-        },
-        {
-          // eslint-disable-next-line @next/next/no-img-element
-	  icon: <img src="/img/meta/menu-logos/ondemand-logo-1.png" alt="ondemand logo" className="h-10 p-0.5"/>,
-          text: 'OnDemand',
-          description: 'Web-based interface providing easy access to high-performance computing (HPC) resources.',
-          url: 'https://docs.metacentrum.cz/en/docs/ondemand',
-          menu: {
-            className: 'lg:col-start-3 lg:row-start-2',
-          },
-        },
-        {
-          // eslint-disable-next-line @next/next/no-img-element
-          icon: <img src="/img/meta/menu-logos/jupyter-new.png" alt="jupyter logo" className="h-10 p-0.5"/>,
-          text: 'Jupyter Notebooks',
-          description: 'Web-based interface enables users to write and execute code in multiple programming languages.',
-          url: 'https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter',
-          menu: {
-            className: 'lg:col-start-2 lg:row-start-2',
-          },
-        },
-        {
-          // eslint-disable-next-line @next/next/no-img-element
-          icon: <img src="/img/meta/menu-logos/galaxy_logo_25percent_transparent.png" alt="galaxy logo" className="h-10 p-0.5"/>,
-          text: 'Galaxy',
-          description: 'Web-based platform designed for running computational and statistical analyses.',
-          url: 'https://docs.metacentrum.cz/en/docs/related/galaxy',
-          menu: {
-            className: 'lg:col-start-3 lg:row-start-1',
-          },
-        },
-        {
-          // eslint-disable-next-line @next/next/no-img-element
-          icon: <img src="/img/meta/menu-logos/elixir_logo.png" alt="elixir logo" className="h-10 p-0.5"/>,
-          text: 'ELIXIR-CZ',
-          description: 'Services available for ELIXIR CZ community.',
-          url: 'https://docs.metacentrum.cz/en/docs/access/elixir',
-          menu: {
-            className: 'lg:col-start-2 lg:row-start-1',
-          },
-        },
-      ], 
-    },
-    { 
-      text: 'NRP',
-      url: 'https://docs.nrp.eosc.cz',
-      active: 'nested-url',
-    },
     { 
       text: 'MetaCentrum Cloud',
       url: 'https://docs.platforms.cloud.e-infra.cz/en/docs',
       active: 'nested-url',
     },
     { 
-      text: 'Account',
-      url: 'https://www.cesnet.cz/en/gdpr#personal-data-processing-in-e-infra-cz-209',
+      text: 'About e-INFRA CZ',
+      url: 'https://www.e-infra.cz/',
       active: 'nested-url',
-    },
+    },	  
   ],
   disableThemeSwitch: true,
   themeSwitch: { enabled: false },
