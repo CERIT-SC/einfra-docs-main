@@ -10,7 +10,7 @@ export default function HomePage() {
       </p>
       <Cards3 className="pt-4">
         <Card title="e-INFRA CZ Account" icon={<Fingerprint/>}>
-          <p>Start by setting up your <b>e-INFRA CZ Account</b>, which will give you access to all services.</p>
+          <p>Start by setting up your <b>e-INFRA CZ Account</b>, you will get it automatically during registration to any service.</p>
           <ul className="pt-2">
            <li><a href="https://docs.e-infra.cz/account/creation" className="text-fd-primary flex items-center gap-2"><MoveRight /> Account creation</a></li>
            <li><a href="https://docs.e-infra.cz/account/access" className="text-fd-primary flex items-center gap-2"><MoveRight /> Accessing your account and services</a></li>
