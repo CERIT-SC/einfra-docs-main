@@ -175,17 +175,17 @@ export const baseOptions: BaseLayoutProps = {
       text: 'NRP',
       url: 'https://docs.nrp.eosc.cz',
       active: 'nested-url',
-    }
+    },
     { 
       text: 'MetaCentrum Cloud',
       url: 'https://docs.platforms.cloud.e-infra.cz/en/docs',
       active: 'nested-url',
-    }
- { 
+    },
+    { 
       text: 'Account',
       url: 'https://www.cesnet.cz/en/gdpr#personal-data-processing-in-e-infra-cz-209',
       active: 'nested-url',
-    }
+    },
   ],
   disableThemeSwitch: true,
   themeSwitch: { enabled: false },
