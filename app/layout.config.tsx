@@ -97,7 +97,7 @@ export const baseOptions: BaseLayoutProps = {
       ], 
     },
     {
-      text: 'Supercomputing IT4I',
+      text: 'Supercomputing',
       url: 'https://docs.it4i.cz',
       active: 'nested-url',
     },
@@ -113,7 +113,7 @@ export const baseOptions: BaseLayoutProps = {
     },
     {
       type: 'menu',
-      text: 'CERIT-SC Kubernetes',
+      text: 'Kubernetes',
       url: 'https://docs.cerit.io/en/docs/platform/overview',
       items: [
         {
