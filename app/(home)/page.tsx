@@ -13,7 +13,7 @@ export default function HomePage() {
           <p>Start by setting up your <b>e-INFRA CZ Account</b>, you will get it automatically during registration to any service.</p>
           <ul className="pt-2">
            <li><a href="https://docs.account.e-infra.cz/en/docs/access/account" className="text-fd-primary flex items-center gap-2"><MoveRight /> How to get access</a></li>
-           <li><a href="hhttps://docs.account.e-infra.cz/en/docs/access/perun" className="text-fd-primary flex items-center gap-2"><MoveRight /> Managing access using Perun</a></li>
+           <li><a href="https://docs.account.e-infra.cz/en/docs/access/perun" className="text-fd-primary flex items-center gap-2"><MoveRight /> Managing access using Perun</a></li>
            <li><a href="https://docs.account.e-infra.cz/en/docs/access/mfa" className="text-fd-primary flex items-center gap-2"><MoveRight /> Multi-Factor Authentication</a></li>
           </ul>
         </Card>
