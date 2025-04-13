@@ -32,10 +32,10 @@ export default function HomePage() {
           <ul className="pt-2">
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Overview</a></li>
            <li><a href="https://docs.du.cesnet.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Synchronisation&Sharing</a></li>
-           <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/owncloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> OwnCloud</a></li>
-           <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/filesender" className="text-fd-primary flex items-center gap-2"><MoveRight /> FileSender</a></li>
            <li><a href="https://docs.du.cesnet.cz/en/docs/object-storage-s3/s3-service" className="text-fd-primary flex items-center gap-2"><MoveRight /> Object Storage</a></li>
            <li><a href="https://docs.nrp.eosc.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> National Data Repositories (NRP)</a></li>
+           <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/owncloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> OwnCloud</a></li>
+           <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/filesender" className="text-fd-primary flex items-center gap-2"><MoveRight /> FileSender</a></li>
           </ul>
         </Card>
       </Cards3>
