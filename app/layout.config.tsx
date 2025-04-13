@@ -22,8 +22,10 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     { 
+      
+      type: 'menu',
       text: 'Account',
-      url: 'https://www.cesnet.cz/en/gdpr#personal-data-processing-in-e-infra-cz-209',
+      url: https://docs.account.e-infra.cz/en/docs/welcome',
       active: 'nested-url',
     },
     {
