@@ -22,8 +22,6 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     { 
-      
-      type: 'menu',
       text: 'Account',
       url: https://docs.account.e-infra.cz/en/docs/welcome',
       active: 'nested-url',
