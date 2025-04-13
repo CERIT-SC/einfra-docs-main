@@ -23,7 +23,7 @@ export const baseOptions: BaseLayoutProps = {
   links: [
     { 
       text: 'Account',
-      url: https://docs.account.e-infra.cz/en/docs/welcome',
+      url: 'https://docs.account.e-infra.cz/en/docs/welcome',
       active: 'nested-url',
     },
     {
