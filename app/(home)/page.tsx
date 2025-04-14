@@ -24,7 +24,7 @@ export default function HomePage() {
            <li><a href="https://docs.it4i.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Supercomputing (IT4I)</a></li>
            <li><a href="https://docs.platforms.cloud.e-infra.cz/en/docs" className="text-fd-primary flex items-center gap-2"><MoveRight /> Compute Cloud (Virtualization)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/platform/overview" className="text-fd-primary flex items-center gap-2"><MoveRight /> Container Platform (Kubernetes CERIT-SC)</a></li>
-           <li><a href="https://www.cerit-sc.cz/infrastructure-services/sensitivecloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> Sensitive Cloud (Kubernetes CERIT-SC)</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/sensitivecloud/account" className="text-fd-primary flex items-center gap-2"><MoveRight /> Sensitive Cloud (Kubernetes CERIT-SC)</a></li>
           </ul>
         </Card>
         <Card title="Data Storage & Repositories" icon={<Database />}>
