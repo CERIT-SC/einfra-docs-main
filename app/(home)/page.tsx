@@ -45,8 +45,8 @@ export default function HomePage() {
            <li><a href="https://docs.cerit.io/en/docs/web-apps/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat (WebUI + API)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify – Alphafold UI</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks/Hub</a></li>
-           <li><a href="https://docs.metacentrum.cz/en/docs/related/galaxy" className="text-fd-primary flex items-center gap-2"><MoveRight /> Galaxy web-based platform for various analysis</a></li>
-           <li><a href="https://docs.metacentrum.cz/en/docs/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum`s Open OnDemand graphical environment</a></li>
+           <li><a href="https://docs.metacentrum.cz/en/docs/related/galaxy" className="text-fd-primary flex items-center gap-2"><MoveRight /> Galaxy web-based platform</a></li>
+           <li><a href="https://docs.metacentrum.cz/en/docs/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum`s Open OnDemand</a></li>
           </ul>
         </Card>
       </Cards3>
