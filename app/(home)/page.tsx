@@ -1,5 +1,5 @@
 import { Cards3, Card } from '@/components/card3';
-import { Fingerprint, Cpu, Database, MoveRight } from 'lucide-react'; 
+import { Feather, Fingerprint, Cpu, Database, MoveRight } from 'lucide-react'; 
 
 export default function HomePage() {
   return (
@@ -35,6 +35,15 @@ export default function HomePage() {
            <li><a href="https://docs.nrp.eosc.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> National Data Repositories (NRP)</a></li>
            <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/owncloud" className="text-fd-primary flex items-center gap-2"><MoveRight /> OwnCloud</a></li>
            <li><a href="https://docs.du.cesnet.cz/en/docs/collaboration/filesender" className="text-fd-primary flex items-center gap-2"><MoveRight /> FileSender</a></li>
+          </ul>
+        </Card>
+      </Cards3>
+      <Cards3 className="pt-4">
+        <Card title="Featured Services" icon={<Feather />}>
+          <p>Did you know we offer the following services?</p>
+          <ul className="pt-2">
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify -- Alphafold UI</a></li>
           </ul>
         </Card>
       </Cards3>
