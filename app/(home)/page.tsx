@@ -43,7 +43,7 @@ export default function HomePage() {
           <p>Did you know we offer the following services?</p>
           <ul className="pt-2">
            <li><a href="https://docs.cerit.io/en/docs/web-apps/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat</a></li>
-           <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify -- Alphafold UI</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify – Alphafold UI</a></li>
           </ul>
         </Card>
       </Cards3>
