@@ -10,7 +10,7 @@ export default function HomePage() {
       </p>
       <Cards3 className="pt-4">
         <Card title="e-INFRA CZ Account" icon={<Fingerprint/>}>
-          <p>Start by setting up your <b>e-INFRA CZ Account</b>, you will get it automatically during registration to any service.</p>
+          <p>Start by setting up your <b>e-INFRA CZ Account</b>, you will get it automatically during registration for any service.</p>
           <ul className="pt-2">
            <li><a href="https://docs.account.e-infra.cz/en/docs/access/account" className="text-fd-primary flex items-center gap-2"><MoveRight /> How to get access</a></li>
            <li><a href="https://docs.account.e-infra.cz/en/docs/access/perun" className="text-fd-primary flex items-center gap-2"><MoveRight /> Managing access using Perun</a></li>
@@ -42,9 +42,6 @@ export default function HomePage() {
         <Card title="Featured Services" icon={<Feather />}>
           <p>Did you know we offer the following services?</p>
           <ul className="pt-2">
-           <li><a href="https://docs.cerit.io/en/docs/web-apps/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat (WebUI)</a></li>
-           <li><a href="https://docs.cerit.io/en/docs/web-apps/chat-ai#currently-available-models-as-of-07312025" className="text-fd-primary flex items-center gap-2"><MoveRight /> LLM models running internally + access using API</a></li>
-           <li><a href="https://docs.cerit.io/en/docs/web-apps/deepsite" className="text-fd-primary flex items-center gap-2"><MoveRight /> DeepSite AI website designer</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Scheduling meetings polls.e-infra.cz</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify – Alphafold UI</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks/Hub</a></li>
