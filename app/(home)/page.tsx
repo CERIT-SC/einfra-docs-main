@@ -53,6 +53,17 @@ export default function HomePage() {
           </ul>
         </Card>
       </Cards3>
+       <Cards3 className="pt-4">
+        <Card title="AI as a Service (AIaaS)" icon={<Feather />}>
+          <p>AI for Science. Built for Researchers. Run Securely in e-INFRA CZ</p>
+          <ul className="pt-2">
+           <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat (WebUI)</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai#currently-available-models-as-of-07312025" className="text-fd-primary flex items-center gap-2"><MoveRight /> LLM models running internally + access using API</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/deepsite" className="text-fd-primary flex items-center gap-2"><MoveRight /> DeepSite AI website designer</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/jupyterhub" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks with AI Intelligence</a></li>
+          </ul>
+        </Card>
+      </Cards3>
     </main>
   );
 }
