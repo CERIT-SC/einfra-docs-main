@@ -1,5 +1,5 @@
 import { Cards3, Card } from '@/components/card3';
-import { Feather, Fingerprint, Cpu, Database, MoveRight } from 'lucide-react'; 
+import { Feather, Fingerprint, Cpu, Database, MoveRight, BrainCircuit } from 'lucide-react'; 
 
 export default function HomePage() {
   return (
