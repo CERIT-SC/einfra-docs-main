@@ -49,7 +49,6 @@ export default function HomePage() {
            <li><a href="https://docs.metacentrum.cz/en/docs/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum&lsquo;s Open OnDemand</a></li>
           </ul>
         </Card>
-      </Cards3>
        <Cards3 className="pt-4">
         <Card title="AI as a Service (AIaaS)" icon={<Feather />}>
           <p>AI for Science. Built for Researchers. Run Securely in e-INFRA CZ</p>
