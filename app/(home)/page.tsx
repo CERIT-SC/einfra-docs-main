@@ -50,7 +50,7 @@ export default function HomePage() {
           </ul>
         </Card>
         <Card title="AI as a Service (AIaaS)" icon={<BrainCircuit />}>
-          <p>AI for Science. Built for Researchers. Run Securely in e-INFRA CZ</p>
+          <p>AI for Science. Built for Researchers. Run Securely in e-INFRA CZ.</p>
           <ul className="pt-2">
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat (WebUI)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai#currently-available-models-as-of-07312025" className="text-fd-primary flex items-center gap-2"><MoveRight /> On-premise LLM + OpenAI-compatible API</a></li>
