@@ -55,6 +55,7 @@ export default function HomePage() {
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/introduction" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI-as-a-Service Introduction</a></li>
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai" className="text-fd-primary flex items-center gap-2"><MoveRight /> AI Chat (WebUI)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/chat-ai#currently-available-models-as-of-07312025" className="text-fd-primary flex items-center gap-2"><MoveRight /> On-premise LLM + OpenAI-compatible API</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/n8n-agents" className="text-fd-primary flex items-center gap-2"><MoveRight /> n8n AI Agents</a></li>
            <li><a href="https://docs.cerit.io/en/docs/ai-as-a-service/deepsite" className="text-fd-primary flex items-center gap-2"><MoveRight /> DeepSite AI Website Designer</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/jupyterhub" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks with AI Intelligence</a></li>
           </ul>
