@@ -3,7 +3,8 @@ import { Feather, Fingerprint, Cpu, Database, MoveRight, BrainCircuit } from 'lu
 
 export default function HomePage() {
   return (
-    <main className="container relative max-w-[1100px] px-2 py-4 lg:py-16">
+    <main className="relative flex min-h-[600px] mx-auto w-full max-w-[1400px]">
+     <div className="flex flex-col z-2 px-4 size-full md:p-12 max-md:items-center max-md:text-center">
       <h1 className="mb-4 text-2xl font-bold">Welcome to e-INFRA CZ Documentation!</h1>
       <p className="text-fd-muted-foreground">
       The home for the documentation of all e-INFRA CZ services that are provided to the scientific community in the Czech Republic.
@@ -61,6 +62,7 @@ export default function HomePage() {
           </ul>
         </Card>
       </Cards3>
+     </div>
     </main>
   );
 }
