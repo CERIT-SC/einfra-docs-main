@@ -47,6 +47,7 @@ export default function HomePage() {
           <ul className="pt-2">
            <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Scheduling meetings polls.e-infra.cz</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify – Alphafold UI</a></li>
+           <li><a href="https://alphafind.ics.muni.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> AlphaFind UI</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks/Hub</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/related/galaxy" className="text-fd-primary flex items-center gap-2"><MoveRight /> Galaxy web-based platform</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/graphical/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum&lsquo;s Open OnDemand</a></li>
