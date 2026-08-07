@@ -53,7 +53,6 @@ export default function HomePage() {
           </ul>
         </Card>
         <Card title="Back Office & Collaboration" icon={<CircleUserRound />}>
-<MessagesSquare />}>
           <p>Everyday tools for meetings, teamwork, and audience engagement.</p>
           <ul className="pt-2">
            <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Polls – meeting scheduling (polls.e-infra.cz)</a></li>
