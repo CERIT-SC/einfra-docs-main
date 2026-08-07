@@ -42,15 +42,22 @@ export default function HomePage() {
         </Card>
       </Cards3>
       <Cards3 className="pt-4">
-        <Card title="Featured Services" icon={<Feather />}>
+        <Card title="Web Based Services" icon={<Feather />}>
           <p>Did you know we offer the following services?</p>
           <ul className="pt-2">
-           <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Scheduling meetings polls.e-infra.cz</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/foldify" className="text-fd-primary flex items-center gap-2"><MoveRight /> Foldify – Alphafold UI</a></li>
            <li><a href="https://alphafind.ics.muni.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> AlphaFind UI</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/software/sw-list/jupyter" className="text-fd-primary flex items-center gap-2"><MoveRight /> Jupyter Notebooks/Hub</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/related/galaxy" className="text-fd-primary flex items-center gap-2"><MoveRight /> Galaxy web-based platform</a></li>
            <li><a href="https://docs.metacentrum.cz/en/docs/graphical/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum&lsquo;s Open OnDemand</a></li>
+          </ul>
+        </Card>
+        <Card title="Back Office & Collaboration" icon={<MessagesSquare />}>
+          <p>Everyday tools for meetings, teamwork, and audience engagement.</p>
+          <ul className="pt-2">
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Polls – meeting scheduling (polls.e-infra.cz)</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/web-apps/matrix" className="text-fd-primary flex items-center gap-2"><MoveRight /> Matrix – secure team messaging</a></li>
+           <li><a href="https://slido.cloud.e-infra.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Slido – live Q&A and polls for events</a></li>
           </ul>
         </Card>
         <Card title="AI as a Service (AIaaS)" icon={<BrainCircuit />}>
