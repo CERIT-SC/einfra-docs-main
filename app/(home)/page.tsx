@@ -58,6 +58,7 @@ export default function HomePage() {
            <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Polls – meeting scheduling (polls.e-infra.cz)</a></li>
            <li><a href="https://docs.cerit.io/en/docs/web-apps/matrix" className="text-fd-primary flex items-center gap-2"><MoveRight /> Matrix – secure team messaging</a></li>
            <li><a href="https://slido.cloud.e-infra.cz/" className="text-fd-primary flex items-center gap-2"><MoveRight /> Slido – live Q&A and polls for events</a></li>
+           <li><a href="https://docs.cerit.io/en/docs/rancher-apps/overleaf" className="text-fd-primary flex items-center gap-2"><MoveRight /> Overleaf Community Edition Plus</a></li>
           </ul>
         </Card>
         <Card title="AI as a Service (AIaaS)" icon={<BrainCircuit />}>
