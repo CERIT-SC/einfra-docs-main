@@ -1,5 +1,5 @@
 import { Cards3, Card } from '@/components/card3';
-import { Feather, Fingerprint, Cpu, Database, MoveRight, BrainCircuit, CircleUserRound } from 'lucide-react'; 
+import { Feather, Fingerprint, Cpu, Database, MoveRight, BrainCircuit, CircleUserRound, Users } from 'lucide-react'; 
 
 export default function HomePage() {
   return (
@@ -52,7 +52,7 @@ export default function HomePage() {
            <li><a href="https://docs.metacentrum.cz/en/docs/graphical/ondemand" className="text-fd-primary flex items-center gap-2"><MoveRight /> MetaCentrum&lsquo;s Open OnDemand</a></li>
           </ul>
         </Card>
-        <Card title="Back Office & Collaboration" icon={<CircleUserRound />}>
+        <Card title="Back Office & Collaboration" icon={<Users />}>
           <p>Everyday tools for meetings, teamwork, and audience engagement.</p>
           <ul className="pt-2">
            <li><a href="https://docs.cerit.io/en/docs/web-apps/polls" className="text-fd-primary flex items-center gap-2"><MoveRight /> Polls – meeting scheduling (polls.e-infra.cz)</a></li>
